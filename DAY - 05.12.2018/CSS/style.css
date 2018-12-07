@@ -2,7 +2,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    background-color: darkgray;
     text-align: center;
     text-shadow: 0px 2px 0px white,0px 3px 0px yellow;
 }
@@ -15,16 +14,13 @@ div{
 .wrap{
     width: 600px;
     margin: auto;
-    background-color: darkslategrey;
     overflow: hidden;
 }
 aside{
     background:yellow;
-    float: right;
-    width: 150px;
 }
 .content{
-    background:lightblue;
+    height: 200px;
 }
 aside ul{
     padding-left: 20px;
@@ -36,7 +32,7 @@ ul a:hover{
     text-decoration: underline;
 }
 article{
-    margin-top: 150px;
+    margin-top: 10px;
 }
 article img{
     float: left;
@@ -82,7 +78,7 @@ article h2{
     text-decoration: none;
 }
 .postinfo a:hover{
-    color: white;
+    color:white;
 }
 .artbody{
     clear: both;
@@ -95,5 +91,18 @@ article h2{
     font-size: 14px;
 }
 .conti:hover{
-    color: white;
+    color:green;
+}
+.nav li{
+    display: inline;
+    padding: 70px;
+}
+.parallax{
+    background-image: url(../Images/roh.jpg);
+    min-height: 500px;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
