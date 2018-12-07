@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     background-color: darkgray;
     text-align: center;
@@ -31,4 +34,66 @@ ul a{
 }
 ul a:hover{
     text-decoration: underline;
+}
+article{
+    margin-top: 150px;
+}
+article img{
+    float: left;
+    margin-right: 10px;
+}
+.preview{
+    float:right;
+    width: 375px;
+}
+article h2{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+.meta a{
+    font-style: italic;
+    color: green;
+    font-size: 15px;
+}
+.meta li{
+    display: inline;
+}
+.meta li:after{
+    content: '|';
+    padding: 0 2px;
+}
+.meta li:last-child::after{
+    content: '';
+}
+.meta{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.postinfo{
+    background: cadetblue;
+    margin-top: 0px;
+    float: left;
+}
+.postinfo a{
+    color: black;
+    text-decoration: none;
+}
+.postinfo a:hover{
+    color: white;
+}
+.artbody{
+    clear: both;
+    margin-left: 0px;
+    line-height: 18px;   
+}
+.conti{
+    float: right;
+    color: black;
+    font-size: 14px;
+}
+.conti:hover{
+    color: white;
 }
