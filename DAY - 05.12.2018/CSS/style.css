@@ -97,12 +97,10 @@ article h2{
     display: inline;
     padding: 70px;
 }
-.parallax{
-    background-image: url(../Images/roh.jpg);
-    min-height: 500px;
-    opacity: 0.8;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
